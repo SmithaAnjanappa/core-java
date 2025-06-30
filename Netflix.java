@@ -11,7 +11,20 @@ static String tamilMovies[]={"amaran","GOAT","eleven","Kingston","brother","drag
 static String webSeries[] = {"the family man" , "dragon", "black warrant","dehli crime", "the roshans", "dabba cartel", "dupahiya"};
 
 public static void main(String movie[]){
-System.out.println("the number of english movies are:" +englishMovies.length);
-System.out.println("the name of english movie:" + englishMovies[0] +"  "+ englishMovies[1]);
+for(String englishMovie : englishMovies){
+System.out.println(englishMovie);
+}
+
+for(String kannadaMovie:kannadaMovies){
+System.out.println(kannadaMovie);
+}
+
+for(String teluguMovie:teluguMovies){
+System.out.println(teluguMovie);
+}
+
+for(String tamilMovie:tamilMovies){
+System.out.println(tamilMovie);
+}
 }
 }

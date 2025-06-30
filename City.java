@@ -5,6 +5,8 @@ public static void main(String pin[]){
 
 System.out.println("the number of pincodes are:" +pinCodes.length);
 
-System.out.println("the pincodes are:" +pinCodes[0] + " "+pinCodes[1] +" " +pinCodes[2] + " "+pinCodes[3] +" " +pinCodes[4] +" "+pinCodes[5]  + " "+pinCodes[6] + "" +pinCodes[7] +" " +pinCodes[8] +" " +pinCodes[9] + " "+pinCodes[10] + " "+pinCodes[11] +" " +pinCodes[12] +" " +pinCodes[13] );
+for(int pincode : pinCodes){
+System.out.println(pincode);
+}
 }
 }
