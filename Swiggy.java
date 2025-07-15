@@ -1,236 +1,120 @@
 class Swiggy{
-public static double search(String food){
+public static double priceOfFood(String name){
 double price = 0.0;
 
-if(food == "burger"){
-price=79 ;
+if(name == "burger"){
+price=79;
 return price;
 }
 
-else if(food=="pizza"){
+else if(name=="pizza"){
 price=150 ;
 return price;
 }
 
-else if(food== "takos"){
+else if(name== "takos"){
 price= 120;
 return price;
 }
 
-else if(food== "panipuri"){
+else if(name== "panipuri"){
 price= 60;
 return price;
 }
 
-else if(food== "mexican chutney"){
+else if(name== "mexican chutney"){
 price= 100;
 return price;
 }
 
-else if(food== "noodles"){
+else if(name== "noodles"){
 price= 250;
 return price;
 }
 
-else if(food== "gobi"){
+else if(name== "gobi"){
 price= 180;
 return price;
 }
 
-else if(food== "popcorn"){
+else if(name== "popcorn"){
 price= 65;
 return price;
 }
 
-else if(food== "chocolava"){
+else if(name== "chocolava"){
 price= 195;
 return price;
 }
 
-else if(food== "corn manchuri" ){
+else if(name== "corn manchuri" ){
 price= 195;
 return price;
 }
 
-else if(food== "french fries"){
+else if(name== "french fries"){
 price= 220.55;
 return price;
 }
 
-else if(food== "papad"){
+else if(name== "papad"){
 price= 35.86;
 return price;
 }
 
-else if(food== " KFC"){
+else if(name== " KFC"){
 price= 590.35;
 return price;
 }
 
 
-else if(food== "5 star" ){
+else if(name== "5 star" ){
 price= 990.85;
 return price;
 }
 
 
-else if(food== "panner manchuri"){
+else if(name== "panner manchuri"){
 price= 562.35;
 return price;
 }
 
 
-else if(food== "chicken lolipop"){
+else if(name== "chicken lolipop"){
 price=680.84 ;
 return price;
 }
 
 
-else if(food== "kaima"){
+else if(name== "kaima"){
 price= 899.65;
 return price;
 }
 
 
-else if(food== "chicken 65"){
+else if(name== "chicken 65"){
 price= 856.67;
 return price;
 }
 
 
-else if(food== "vada"){
+else if(name== "vada"){
 price= 25;
 return price;
 }
 
-else if(food== "pav bhaji"){
+else if(name== "pav bhaji"){
 price= 105.32;
 return price;
 }
 
 else{
 System.out.println("food not found");
-}
-
 return price;
 }
 
-
-
-public static double search(String food , int quantity){
-double price=0.0;
-
-if(food == "burger"){
-price  =79 * quantity;
 return price;
-}
 
-else if(food=="pizza"){
-price  =150* quantity ;
-return price;
-}
-
-else if(food== "takos"){
-price = 120* quantity;
-return price;
-}
-
-else if(food== "panipuri"){
-price = 60* quantity;
-return price;
-}
-
-else if(food== "mexican chutney"){
-price = 100* quantity;
-return price;
-}
-
-else if(food== "noodles"){
-price= 250 * quantity;
-return price;
-}
-
-else if(food== "gobi"){
-price = 180 * quantity;
-return price;
-}
-
-else if(food== "popcorn"){
-price = 65 * quantity;
-return price;
-}
-
-else if(food== "chocolava"){
-price = 195 * quantity;
-return price;
-}
-
-else if(food== "corn manchuri" ){
-price = 195* quantity;
-return price;
-}
-
-else if(food== "french fries"){
-price = 220.55* quantity;
-return price;
-}
-
-else if(food== "papad"){
-price = 35.86 * quantity;
-return price;
-}
-
-else if(food== " KFC"){
-price = 590.35 * quantity;
-return price;
-}
-
-
-else if(food== "5 star" ){
-price = 990.85 * quantity;
-return price;
-}
-
-
-else if(food== "panner manchuri"){
-price = 562.35 * quantity;
-return price;
-}
-
-
-else if(food== "chicken lolipop"){
-price =680.84 * quantity;
-return price;
-}
-
-
-else if(food== "kaima"){
-price = 899.65 * quantity;
-return price;
-}
-
-
-else if(food== "chicken 65"){
-price = 856.67* quantity;
-return price;
-}
-
-
-else if(food== "vada"){
-price = 25 * quantity;
-return price;
-}
-
-else if(food== "pav bhaji"){
-price = 105.32 * quantity;
-return price;
-}
-
-else{
-System.out.println("food not found");
-}
-
-
-return price;
 }
 }
+
